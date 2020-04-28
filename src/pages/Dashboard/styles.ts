@@ -64,6 +64,9 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+      &:hover {
+        transform: translateY(10px);
+      }
     }
 
     td {
